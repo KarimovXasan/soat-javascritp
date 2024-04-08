@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: blueviolet;
+}
+
+#Time{
+    color: white;
+}
+
+#stop{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: yellow;
+    color: white;
+    margin-left: 650px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px){
+    #stop{
+        display: none;
+    }
+
+    #Time{
+        margin-left: 140px;
+    }
+}
